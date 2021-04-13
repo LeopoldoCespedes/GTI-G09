@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>XD</title>
+
+    <style>
+        .menuarriba {
+            width: 200px;
+            height: 100px;
+            background: grey;
+            position: relative;
+            animation: mymovearriba 1s 1;
+            animation-fill-mode: forwards;
+
+
+
+        }
+
+        .menuabajo {
+            width: 200px;
+            height: 300px;
+            background: purple;
+            position: relative;
+            animation: mymove 1s 1;
+            animation-fill-mode: forwards;
+
+        }
+
+        .morado {
+            color: purple;
+        }
+
+
+
+        @keyframes mymove {
+            from {
+                left: 100%;
+                top: 80%
+            }
+
+            to {
+                left: 80%;
+            }
+        }
+
+        @keyframes mymovearriba {
+            from {
+                left: 100%;
+                top: 85%
+            }
+
+            to {
+                left: 80%;
+            }
+        }
+    </style>
+
+
+    <script>
+        function agregarmenu() {
+            var animacion1 = document.getElementById("menup")
+            var animacion2 = document.getElementById("mendown")
+            animacion2.innerHTML = "<button class='morado'>¿Que te ofrecemos?</button> " +
+                "<hr>" + "<button class='morado'>ACERCA DE NOSOTROS</button>" + "<hr>" + 
+                "<button class='morado'>AREA DE CLIENTE</button>"
+        }
+
+
+    </script>
+
+
+
+</head>
+
+<body>
+    <button onclick="agregarmenu()">PULSA</button>
+    <div class="menuarriba" id="menup"></div>
+    <div class="menuabajo" id="mendown"></div>
+
+</body>
+
+</html>
