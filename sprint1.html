@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+<!-- css de la página -->
+<style>
+
+    /*-----------------------------------------------------------------------------------*/
+    /*Aquí van las fonts y tamaños de letras*/
+    
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+
+    a {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 17px;
+    }
+    /*-----------------------------------------------------------------------------------*/
+
+    /*-----------------------------------------------------------------------------------*/
+    /*Alinear textos*/
+    section {
+        text-align: center;
+    }
+
+    div {
+        text-align: center;
+    }
+    /*-----------------------------------------------------------------------------------*/
+
+    /*-----------------------------------------------------------------------------------*/
+    /*Aquí van los colores*/
+    .blanco {
+        color: white
+    }
+
+    .morado {
+        color: purple
+    }
+
+    /*-----------------------------------------------------------------------------------*/
+
+    /*-----------------------------------------------------------------------------------*/
+    /*Aquí van las fotos de fondo*/
+    .encabezado {
+        background-image: url("imagenes/header.jpg");
+        background-size: cover;
+    }
+
+    .call_to_action {
+        background-image: url("imagenes/landing_page1.jpg");
+        background-size: cover;
+    }
+
+    .mas_informacion {
+        background-image: url("imagenes/landing_page2.jpg");
+        background-size: cover;
+    }
+
+    .acerca_de_nosotros {
+        background-image: url("https://cdn.discordapp.com/attachments/826015396440178699/831105703400964156/landing_page3.jpg");
+        background-size: cover;
+    }
+
+    .pie_de_pagina {
+        background-image: url("imagenes/footer.jpg");
+        background-size: cover;
+    }
+    /*-----------------------------------------------------------------------------------*/
+
+    .logo {
+        width: 35%;
+        height: 35%;
+    }
+
+    /*-----------------------------------------------------------------------------------*/
+    /*Estilo del menu del header*/
+    .menu {
+       
+        float: right;
+        margin-top: 2.5%;
+        margin-right: 2.5%;
+        
+        
+       
+    }
+
+    .menufoto{
+
+        width: 100px;
+        height: 100px ;
+        
+    }
+    
+
+    .menu:hover{
+        transform: scale(1.05);
+        transition: 150ms;
+    }
+
+    .menu:active{
+        transform: scale(1.5);
+    }
+    /*-----------------------------------------------------------------------------------*/
+
+    /*-----------------------------------------------------------------------------------*/
+    /*Estilo de los botones morados*/
+    .boton {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        line-height: 28px;
+        padding: 17px;
+        border-radius: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        background-color: purple;
+        display: inline-block;
+    }
+
+    .boton:hover {
+        background: rgb(112, 0, 112);
+        transform: scale(1.05);
+        transition: 150ms;
+    }
+
+    .boton:active {
+        background: rgb(95, 0, 95);
+        transform: scale(1.06);
+        
+    }
+
+    /*-----------------------------------------------------------------------------------*/
+   
+</style>
+
+<!-- fin del css de la página -->
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+<!-- scripts de la página -->
+<script>
+
+    function changeImage() {
+        var img = document.getElementById("image");
+        img.src = "imagenes/close.png";
+        return false;
+    }
+
+</script>
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+<!-- body de la página -->
+<body>
+
+    <!-- header de la página -->
+    <header class="encabezado">
+
+        <a><img class="logo" src="imagenes/logoGTI.png" alt="logo del sitio web" id="imglogo"></a>
+        
+        <!--<button onclick="changeImage();" class="menu" style="border: 0; background: transparent">
+            <img class="menufoto" id="image" src="imagenes/menu_2.png" alt="menu">
+        </button> -->
+
+        <a class="menu"><img class="menufoto" id="image" src="imagenes/menu_2.png" alt="menu"></a>
+
+    </header>
+    <!-- fin del header de la página -->
+
+    <!-- primera sección de la página -->
+    <section class="call_to_action">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1 class="morado">CONTROLA TUS CULTIVOS DESDE CUALQUIER SITIO</h1>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a>¿Eres una agricultor con una explotación agraria y te gustaría ahorrarte tiempo y trabajo? </a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a>Con nuestros sensores es posible, te damos la oportunidad de ver el estado de tus cultivos desde cualquier
+            sitio. </a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a>Si te interesa:</a>
+        <br>
+        <br>
+        <br>
+        <a class="boton" href="#contacto">CONTACTANOS</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </section>
+    <!-- fin de la primera sección de la página -->
+
+
+    <!-- segunda sección de la página -->
+    <section class="mas_informacion">
+
+        <br>
+        <br>
+
+        <h1 class="blanco">¿QUE TE OFRECEMOS?</h1>
+
+        <br>
+        <br>
+        <br>
+
+        <a class="blanco">Nuestra empresa fabrica sensores para explotaciones agricolas, que son capaces de proporcionar
+            datos al detalle
+            y en tiempo real sobre el estado de los cultivos para posteriormente visualizarlos en esta página web.</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="blanco">Analizamos tu campo de cultivo y te ofrecemos un paquete completo que incluye:</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="blanco">El número de sensores que necesites.</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="blanco">Instalación de los sensores.</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="blanco">Cuenta para acceder a las funcionalidades de la web</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="boton" href="masinfo.html">Más información</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </section>
+    <!-- fin de la segunda sección de la página -->
+
+    <!-- tercera sección de la página -->
+    <section class="acerca_de_nosotros" id="acerca_de_nosotros">
+        <br>
+        <br>
+        <br>
+
+        <div class="acerca_de_nosotros_text">
+            <h1 class="blanco">ACERCA DE NOSOTROS</h1>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+    </section>
+    <!-- fin de la tercera sección de la página -->
+
+    <!-- footer de la página -->
+    <footer class="pie_de_pagina">
+        <div class="bottom"> </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    </footer>
+
+    <!-- fin del footer de la página -->
+
+</body>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
