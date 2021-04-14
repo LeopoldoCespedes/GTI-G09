@@ -3,7 +3,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
@@ -14,143 +15,6 @@
 
 <!-- ----------------------------------------------------------------------------------------------------------------------- -->
 <!-- css de la página -->
-<style>
-
-    /*-----------------------------------------------------------------------------------*/
-    /*Aquí van las fonts y tamaños de letras*/
-    
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
-    }
-
-    a {
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        font-size: 17px;
-    }
-    /*-----------------------------------------------------------------------------------*/
-
-    /*-----------------------------------------------------------------------------------*/
-    /*Alinear textos*/
-    section {
-        text-align: center;
-    }
-
-    div {
-        text-align: center;
-    }
-    /*-----------------------------------------------------------------------------------*/
-
-    /*-----------------------------------------------------------------------------------*/
-    /*Aquí van los colores*/
-    .blanco {
-        color: white
-    }
-
-    .morado {
-        color: purple
-    }
-
-    /*-----------------------------------------------------------------------------------*/
-
-    /*-----------------------------------------------------------------------------------*/
-    /*Aquí van las fotos de fondo*/
-    .encabezado {
-        background-image: url("images/header.jpg");
-        background-size: cover;
-    }
-
-    .call_to_action {
-        background-image: url("images/landing_page1.jpg");
-        background-size: cover;
-    }
-
-    .mas_informacion {
-        background-image: url("images/landing_page2.jpg");
-        background-size: cover;
-    }
-
-    .acerca_de_nosotros {
-        background-image: url("images/landing_page3.jpg");
-        background-size: cover;
-    }
-
-    .pie_de_pagina {
-        background-image: url("images/footer.jpg");
-        background-size: cover;
-    }
-    /*-----------------------------------------------------------------------------------*/
-
-    .logo {
-        width: 35%;
-        height: 35%;
-    }
-
-    /*-----------------------------------------------------------------------------------*/
-    /*Estilo del menu del header*/
-    .menu {
-       
-        float: right;
-        margin-top: 2.5%;
-        margin-right: 2.5%;
-        
-        
-       
-    }
-
-    .menufoto{
-
-        width: 100px;
-        height: 100px ;
-        
-    }
-    
-
-    .menu:hover{
-        transform: scale(1.05);
-        transition: 150ms;
-    }
-
-    .menu:active{
-        transform: scale(1.5);
-    }
-    /*-----------------------------------------------------------------------------------*/
-
-    /*-----------------------------------------------------------------------------------*/
-    /*Estilo de los botones morados*/
-    .boton {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        line-height: 28px;
-        padding: 17px;
-        border-radius: 15px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: normal;
-        text-decoration: none;
-        font-style: normal;
-        font-variant: normal;
-        text-transform: none;
-        background-color: purple;
-        display: inline-block;
-    }
-
-    .boton:hover {
-        background: rgb(112, 0, 112);
-        transform: scale(1.05);
-        transition: 150ms;
-    }
-
-    .boton:active {
-        background: rgb(95, 0, 95);
-        transform: scale(1.06);
-        
-    }
-
-    /*-----------------------------------------------------------------------------------*/
-
-
-</style>
 
 <!-- fin del css de la página -->
 <!-- ----------------------------------------------------------------------------------------------------------------------- -->
@@ -178,12 +42,18 @@
     <header class="encabezado">
 
         <a><img class="logo" src="images/logoGTI.png" alt="logo del sitio web" id="imglogo"></a>
-        
-        <!--<button onclick="changeImage();" class="menu" style="border: 0; background: transparent">
-            <img class="menufoto" id="image" src="images/menu_2.png" alt="menu">
-        </button> -->
 
-        <a class="menu"><img class="menufoto" id="image" src="images/menu_2.png" alt="menu"></a>
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#mas_informacion">Qué te ofrecemos</a></li>
+                <li><a href="#acerca_de_nosotros">Acerca de nosotros</a></li>
+                <li><a href="login.html" id="color-login-btn">Area de cliente</a></li>
+            </ul>
+        </nav>
+
+        <!--<a class="menu"><img class="menufoto" id="image" src="images/menu_2.png" alt="menu"></a>-->
 
     </header>
     <!-- fin del header de la página -->
