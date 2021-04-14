@@ -41,8 +41,9 @@ div {
 /*Aquí van las fotos de fondo*/
 .encabezado {
     background-image: url("../images/header.jpg");
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: #830053;
     position: relative;
     width:100%;
     z-index: 3;
@@ -61,18 +62,19 @@ div {
 .encabezado li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #EED595;
+    border-bottom: 1px solid #830053;
     text-decoration: none;
+    color: #830053;
 }
 
 
-encabezado li #color-login-btn:hover{
-    background-color: #253016;
-    color: #EED595;
+.encabezado li #color-login-btn:hover{
+    background-color: #830053;
+    color: white;
 }
 .encabezado li a:hover{
-    background-color: #253016;
-    color: #EED595;
+    background-color: #830053;
+    color: white;
 }
 .encabezado .logo {
     display: block;
@@ -108,7 +110,7 @@ encabezado li #color-login-btn:hover{
 }
 
 .encabezado .menu-icon .navicon {
-    background: #333;
+    background: white;
     display: block;
     height: 2px;
     position: relative;
@@ -118,7 +120,7 @@ encabezado li #color-login-btn:hover{
 
 .encabezado .menu-icon .navicon:before,
 .encabezado .menu-icon .navicon:after {
-    background: #333;
+    background: white;
     content: '';
     display: block;
     height: 100%;
@@ -161,13 +163,6 @@ encabezado li #color-login-btn:hover{
 .encabezado .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
-:root {
-    --blue: #3498db;
-    --dark-blue: #2980b9;
-    --background: #081118;
-    --grey: #333;
-    --light-grey: #3b3b3b;
-}
 
 * {
     margin: 0;
@@ -180,7 +175,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: var(--background);
     display: flex;
     flex-direction: column;
 }

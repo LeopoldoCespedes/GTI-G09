@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d367fdf-d5a7-4004-b94e-2b3d1dd77cc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prueba.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sprint1.html" beforeDir="false" afterPath="$PROJECT_DIR$/sprint1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <updated>1618330173032</updated>
       <workItem from="1618330175084" duration="2324000" />
       <workItem from="1618333527998" duration="20859000" />
-      <workItem from="1618418985879" duration="3405000" />
+      <workItem from="1618418985879" duration="6274000" />
     </task>
     <task id="LOCAL-00001" summary="prueba">
       <created>1618330314650</created>
@@ -89,9 +88,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618419072770" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1618418384283">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1618423013408">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1618418384283" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1618423013408" />
   </component>
 </project>
